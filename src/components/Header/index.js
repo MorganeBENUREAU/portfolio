@@ -1,4 +1,3 @@
-import logo from "../../images/Logo_fond_transparent.png";
 import menu from "../../images/menu.svg";
 import cross from "../../images/cross.svg";
 
@@ -11,18 +10,14 @@ const Header = () => {
     setIsActive(!isActive);
   };
     
-
   return (
-    <header className="bg-custom-pinkgrey fixed top-0 z-50 w-full shadow shadow-custom-pink">
+    <header className="bg-custom-blue text-white fixed top-0 z-50 w-full shadow shadow-custom-grey">
       <nav
         id="main-nav"
         className="bg-custom-pinkgrey max-w-6xl mx-auto font-cormorantInfant p-2 flex items-center justify-between"
       >
-        <Link
-          to="/"
-          className="flex"
-        >
-          <img className="w-16" src={logo} alt="logo martine angibaud" />
+        <Link to="/">
+          <h1 className="font-josefinslab text-3xl font-bold">Morgane Benureau</h1>
         </Link>
 
         <button
@@ -39,7 +34,7 @@ const Header = () => {
 
         <ul
           id="toggled-menu"
-          className={`w-full absolute top-full left-0 -z-10 flex flex-col items-center md:static md:z-10 md:w-max md:transform-none md:flex-row 
+          className={` border border-solid border-green-700 w-full absolute top-full left-0 -z-10 flex flex-col items-center md:static md:z-10 md:w-max md:transform-none md:flex-row 
             ${isActive ? "bg-custom-pinkgrey h-screen justify-center -mt-20 md:h-auto md:mt-0" : "-translate-y-full "}`}
           onClick={toggleNav}
         >
@@ -55,25 +50,25 @@ const Header = () => {
           <li className="py-6 md:py-0 md:mr-6">
             <NavLink
               className="text-2xl uppercase font-semibold w-full hover:underline underline-offset-4 md:text-lg lg:text-xl"
-              to="/apropos"
+              to="/formations"
             >
-              A Propos
+              Formations
             </NavLink>
           </li>
           <li className="py-6 md:py-0 md:mr-6">
             <NavLink
               className="text-2xl uppercase font-semibold w-full hover:underline underline-offset-4 md:text-lg lg:text-xl"
-              to="/lessoins"
+              to="/experience"
             >
-              Les Soins
+              Expériences
             </NavLink>
           </li>
           <li className="py-6 md:py-0 md:mr-6">
             <NavLink
               className="text-2xl uppercase font-semibold w-full hover:underline underline-offset-4 md:text-lg lg:text-xl"
-              to="/tarifsethoraires"
+              to="/projets"
             >
-              Tarifs et Horaires
+              Projets
             </NavLink>
           </li>
           <li className="py-6 md:py-0 md:mr-6">
@@ -83,6 +78,14 @@ const Header = () => {
             >
               Contact
             </NavLink>
+          </li>
+          <li className="py-6 md:py-0 md:mr-6">
+            <a
+              className="text-2xl uppercase font-semibold w-full hover:underline underline-offset-4 md:text-lg lg:text-xl"
+              href="/CV.pdf" target="_blank" rel="noopener noreferrer"
+            >
+              CV
+            </a>
           </li>
         </ul>
       </nav>

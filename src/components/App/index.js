@@ -1,5 +1,5 @@
 import Accueil from '../Accueil';
-import Formations from '../Formation';
+import Formations from '../Formations';
 import Experiences from '../Experiences';
 import Projets from '../Projets';
 import Contact from '../Contact';

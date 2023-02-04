@@ -12,7 +12,8 @@ module.exports = {
         
       },
       colors: {
-        'custom-blue': "#437f86",
+        'custom-grey': "#e5e5e5",
+        'custom-blue': "#437f86"
 
       },
     },

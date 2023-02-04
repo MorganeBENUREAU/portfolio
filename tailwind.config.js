@@ -6,9 +6,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        'josefinslab': ['Josefin Slab', 'serif'],
         'cabin': ['Cabin', 'sans-serif'],
         'quicksand': ['Quicksand', 'sans-serif'],
-        'josefinslab': ['Josefin Slab', 'serif']
+        
       },
       colors: {
         'custom-blue': "#437f86",

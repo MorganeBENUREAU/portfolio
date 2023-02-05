@@ -1,5 +1,5 @@
-import menu from "../../images/menu.svg";
-import cross from "../../images/cross.svg";
+import menu from "../../images/menu_white.png";
+import cross from "../../images/cross_white.png";
 
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
@@ -22,7 +22,7 @@ const Header = () => {
 
         <button
           id="menu-btn"
-          className="cursor-pointer w-10 lg:hidden"
+          className="cursor-pointer w-8 md:w-10 lg:hidden"
           onClick={toggleNav}
           aria-label="toggle navigation"
         >
@@ -34,11 +34,11 @@ const Header = () => {
 
         <ul
           id="toggled-menu"
-          className={`border border-solid border-green-700 w-full absolute top-full left-0 -z-10 flex flex-col items-center lg:static lg:z-10 lg:w-max lg:transform-none lg:flex-row 
-            ${isActive ? "bg-custom-blue h-screen justify-center -mt-20 lg:h-auto lg:mt-0" : "-translate-y-full "}`}
+          className={`w-full absolute top-full left-0 -z-10 flex flex-col items-center lg:static lg:z-10 lg:w-max lg:transform-none lg:flex-row 
+            ${isActive ? "bg-custom-blue h-screen justify-center lg:h-auto lg:mt-0" : "-translate-y-full "}`}
           onClick={toggleNav}
         >
-          <li className="py-6 lg:py-0 lg:mr-6">
+          <li className="pb-6 md:py-0 md:mr-6">
             <NavLink
               className="text-2xl uppercase font-semibold w-full hover:underline underline-offset-4 md:text-lg lg:text-xl"
               to="/"

@@ -14,7 +14,7 @@ const Header = () => {
     <header className="bg-custom-blue text-white fixed top-0 z-50 w-full shadow shadow-custom-grey">
       <nav
         id="main-nav"
-        className="bg-custom-pinkgrey max-w-6xl mx-auto font-cormorantInfant p-2 flex items-center justify-between"
+        className="bg-custom-blue max-w-6xl mx-auto p-2 flex items-center justify-between"
       >
         <Link to="/">
           <h1 className="font-josefinslab text-3xl font-bold">Morgane Benureau</h1>
@@ -34,8 +34,8 @@ const Header = () => {
 
         <ul
           id="toggled-menu"
-          className={` border border-solid border-green-700 w-full absolute top-full left-0 -z-10 flex flex-col items-center md:static md:z-10 md:w-max md:transform-none md:flex-row 
-            ${isActive ? "bg-custom-pinkgrey h-screen justify-center -mt-20 md:h-auto md:mt-0" : "-translate-y-full "}`}
+          className={`border border-solid border-green-700 w-full absolute top-full left-0 -z-10 flex flex-col items-center md:static md:z-10 md:w-max md:transform-none md:flex-row 
+            ${isActive ? "bg-custom-blue h-screen justify-center -mt-20 md:h-auto md:mt-0" : "-translate-y-full "}`}
           onClick={toggleNav}
         >
           <li className="py-6 md:py-0 md:mr-6">

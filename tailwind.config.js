@@ -16,6 +16,9 @@ module.exports = {
         'custom-blue': "#437f86"
 
       },
+      flex: {
+        '1-0-auto': '1 0 auto'
+      }
     },
   },
   plugins: [],

@@ -1,6 +1,6 @@
 function Accueil() {
   return (
-    <main className="items-center min-h-[calc(100vh-82px-40px)] mt-20 p-1 md:p-4">
+    <main className="items-center flex-1-0-auto mt-14 p-1 md:p-4">
       <p>
         Bonjour, 
         Après environ 10 ans en tant qu'assistante administrative, j'ai

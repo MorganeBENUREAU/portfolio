@@ -1,7 +1,7 @@
 import menu from "../../images/menu.svg";
 import cross from "../../images/cross.svg";
 import tel from "../../images/logo-tel.png";
-import mail from "../../images/logo-mail.png";
+import mail from "../../images/logo-mail-noir.png";
 import github from "../../images/logo-github-noir.png";
 import linkedin from "../../images/logo-linkedin-noir.png";
 
@@ -20,25 +20,9 @@ const Header = () => {
         id="main-nav"
         className="bg-gray-200 max-w-6xl mx-auto p-2 flex items-center justify-between"
       >
-        <div className="flex flex-col">
-          <Link to="/">
-            <h1 className="font-josefinslab text-custom-blue text-4xl font-bold">Morgane Benureau</h1>
-          </Link>
-          <div className="flex">
-            <a href="tel:+33677432457">
-              <img src={tel} alt="logo pour téléphoner" className="w-6"/>
-            </a>
-            <a href="mail:morgane.benureau@gmail.com">
-              <img src={mail} alt="logo pour envoyer un mail" className="w-6"/>
-            </a>
-            <a href="https://www.linkedin.com/in/morganebenureau/">
-              <img src={linkedin} alt="logo pour téléphoner" className="w-6"/>
-            </a>
-            <a href="https://github.com/MorganeBENUREAU">
-              <img src={github} alt="logo pour téléphoner" className="w-6"/>
-            </a>
-          </div>
-        </div>
+        <Link to="/">
+          <h1 className="font-josefinslab text-custom-blue text-4xl font-bold">Morgane Benureau</h1>
+        </Link>
 
         <button
           id="menu-btn"

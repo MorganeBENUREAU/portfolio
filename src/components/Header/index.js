@@ -1,9 +1,5 @@
 import menu from "../../images/menu.svg";
 import cross from "../../images/cross.svg";
-import tel from "../../images/logo-tel.png";
-import mail from "../../images/logo-mail-noir.png";
-import github from "../../images/logo-github-noir.png";
-import linkedin from "../../images/logo-linkedin-noir.png";
 
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";

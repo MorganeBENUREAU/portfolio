@@ -11,7 +11,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="bg-gray-100 text-black h-full flex flex-col">
+    <div className="h-full flex flex-col">
       <Header />
 
         <Routes>

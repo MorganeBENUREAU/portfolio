@@ -2,10 +2,10 @@ function Formations() {
     return (
       <main className="font-quicksand flex flex-col justify-around items-center text-left indent-4 flex-1-0-auto w-4/5 mt-28 mb-2 mx-auto sm:mt-20 sm:w-4/5 md:w-3/5 lg:w-2/5">
         <h1 className="font-cabin text-2xl uppercase mb-4">Formations</h1>
-        <div>
+
           <section className="p-2 shadow shadow-custom-blue">
-            <h2 className="font-cabin text-xl mb-2">Titre Professionnel Développeur Web et Web Mobile - Niveau 5</h2>
-            <p className="mb-1">De mars 2021 à Septembre 2021 - 798 h intensives</p>
+            <h2 className="font-cabin text-xl mb-2 text-center">Titre Professionnel Développeur Web et Web Mobile - Niveau 5</h2>
+            <p className="mb-1 text-center">De mars 2021 à Septembre 2021 - 798 h intensives</p>
             <p className="mb-2">École O’clock - Formation en Téléprésentiel - Labellisée Grande École du Numérique</p>
             <div className="shadow shadow-gray-500">
               <ul>
@@ -15,11 +15,11 @@ function Formations() {
               </ul>
             </div>
           </section>
-          <section className="mt-6 p-4 shadow shadow-custom-blue">
+          <section className="w-full mt-6 p-4 shadow shadow-custom-blue text-center">
             <h2 className="font-cabin text-xl">BAC STG CFE (comptabilité et finances des entreprises)</h2>
             <p>Juin 2010</p>
           </section>
-        </div>
+
       </main>
     );
   }

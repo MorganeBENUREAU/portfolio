@@ -1,6 +1,7 @@
 import menu from "../../images/menu.svg";
 import cross from "../../images/cross.svg";
 
+
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 
@@ -11,7 +12,7 @@ const Header = () => {
   };
     
   return (
-    <header className="bg-gray-200 fixed top-0 z-50 w-full shadow shadow-custom-grey">
+    <header className="bg-gray-200 fixed top-0 z-50 w-full shadow shadow-custom-grey" >
       <nav
         id="main-nav"
         className="bg-gray-200 max-w-6xl mx-auto p-2 flex items-center justify-between"

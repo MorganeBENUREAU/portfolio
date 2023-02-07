@@ -58,7 +58,7 @@ const Header = () => {
           <li className="py-6 md:py-0 md:mr-6">
             <NavLink
               className="text-2xl uppercase font-semibold w-full hover:underline underline-offset-4 md:text-lg lg:text-xl"
-              to="/experience"
+              to="/experiences"
             >
               Expériences
             </NavLink>

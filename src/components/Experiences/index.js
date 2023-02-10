@@ -19,9 +19,13 @@ function Experiences() {
         </ul>
       </section>
       <section className="w-full mt-6 p-2 shadow shadow-custom-blue">
-        <h2 className="font-cabin text-xl mb-2 text-center">2017 - 2020</h2> 
-        <h3 className="font-cabin text-xl mb-2 text-center">EMPLOYÉE ADMINISTRATIVE (Atib)</h3>
-        <p className="mb-2 text-center">Du 3 avril 2017 au 28 octobre 2020 (CDI / Congé parental)</p>
+        <h2 className="font-cabin text-xl mb-2 text-center">2017 - 2020</h2>
+        <h3 className="font-cabin text-xl mb-2 text-center">
+          EMPLOYÉE ADMINISTRATIVE (Atib)
+        </h3>
+        <p className="mb-2 text-center">
+          Du 3 avril 2017 au 28 octobre 2020 (CDI / Congé parental)
+        </p>
         <ul className="shadow shadow-gray-500">
           <li>-&gt; Gestion de la base de données de l’ERP</li>
           <li>-&gt; Gestion du courrier et des boîtes mails</li>
@@ -31,8 +35,10 @@ function Experiences() {
         </ul>
       </section>
       <section className="w-full mt-6 p-2 shadow shadow-custom-blue">
-        <h2 className="font-cabin text-xl mb-2 text-center">2010 - 2015</h2> 
-        <h3 className="font-cabin text-xl mb-2 text-center">DIVERS CONTRATS D’ADMINISTRATIF EN INTÉRIM</h3>
+        <h2 className="font-cabin text-xl mb-2 text-center">2010 - 2015</h2>
+        <h3 className="font-cabin text-xl mb-2 text-center">
+          DIVERS CONTRATS D’ADMINISTRATIF EN INTÉRIM
+        </h3>
       </section>
     </main>
   );

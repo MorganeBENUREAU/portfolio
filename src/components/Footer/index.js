@@ -7,10 +7,18 @@ const Footer = () => {
     <footer className="bg-gray-200 font-josefinslab shrink-0 text-sm text-center shadow-inner shadow-custom-grey flex flex-col items-center sm:text-base md:text-lg">
       <div className="flex pt-1 px-1 ">
         <a href="mail:morgane.benureau@gmail.com">
-          <img src={mail} alt="logo pour envoyer un mail" className="w-6 mr-12"/>
+          <img
+            src={mail}
+            alt="logo pour envoyer un mail"
+            className="w-6 mr-12"
+          />
         </a>
         <a href="https://www.linkedin.com/in/morganebenureau/">
-          <img src={linkedin} alt="logo pour téléphoner" className="w-6 mr-12" />
+          <img
+            src={linkedin}
+            alt="logo pour téléphoner"
+            className="w-6 mr-12"
+          />
         </a>
         <a href="https://github.com/MorganeBENUREAU">
           <img src={github} alt="logo pour téléphoner" className="w-6" />
@@ -27,7 +35,6 @@ const Footer = () => {
         </a>
         - tous droits réservés
       </p>
-      
     </footer>
   );
 };

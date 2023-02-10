@@ -1,9 +1,8 @@
-import node from '../../images/logo-nodeJS.png';
+import node from "../../images/logo-nodeJS.png";
 // import koa from '../../images/logo-koa.png';
-import postgresql from '../../images/logo-postgresql.png';
-import react from '../../images/logo-react.png';
-import tailwind from '../../images/logo-tailwindcss.png';
-
+import postgresql from "../../images/logo-postgresql.png";
+import react from "../../images/logo-react.png";
+import tailwind from "../../images/logo-tailwindcss.png";
 
 function Projets() {
   return (
@@ -12,44 +11,60 @@ function Projets() {
       <section className="p-2 shadow shadow-custom-blue">
         <h2 className="font-cabin text-xl mb-2 text-center">NotaBebe</h2>
         <div className="flex w-full justify-around items-center my-2">
-          <img src={node} alt="" className="h-10 md:h-12"/>
-          <img src={postgresql} alt="" className="h-10 md:h-12"/>
-          <img src={react} alt="" className="h-10 md:h-12"/>
+          <img src={node} alt="" className="h-10 md:h-12" />
+          <img src={postgresql} alt="" className="h-10 md:h-12" />
+          <img src={react} alt="" className="h-10 md:h-12" />
         </div>
         <div className="shadow shadow-gray-500 indent-4">
           <p>
-            Projet réalisé en groupe de 5 (3 personnes côté front, 2 côté back, dont moi-même). Ce projet a été fait dans le cadre de ma formation O'clock comme projet de fin d'études. C'est un site qui permet de faire le lien entre des parents et une structure d'accueil comme une crèche.
+            Projet réalisé en groupe de 5 (3 personnes côté front, 2 côté back,
+            dont moi-même). Ce projet a été fait dans le cadre de ma formation
+            O'clock comme projet de fin d'études. C'est un site qui permet de
+            faire le lien entre des parents et une structure d'accueil comme une
+            crèche.
           </p>
           <p>
-            <a className="hover:underline" href="https://notabebe.netlify.app/">Lien du projet.</a>
+            <a className="hover:underline" href="https://notabebe.netlify.app/">
+              Lien du projet.
+            </a>
           </p>
         </div>
       </section>
       <section className="mt-6 p-2 shadow shadow-custom-blue">
         <h2 className="font-cabin text-xl mb-2 text-center">Bibli'O</h2>
         <div className="flex w-full justify-around items-center my-2">
-          <img src={node} alt="" className="h-10 md:h-12"/>
-          <img src={postgresql} alt="" className="h-10 md:h-12"/>
+          <img src={node} alt="" className="h-10 md:h-12" />
+          <img src={postgresql} alt="" className="h-10 md:h-12" />
         </div>
         <div className="shadow shadow-gray-500 indent-4">
           <p>
-            Api de bibliothèque personnelle faite en NodeJS et PostgreSQL. Début de front en EJS, mon but est de faire le front en React.
+            Api de bibliothèque personnelle faite en NodeJS et PostgreSQL. Début
+            de front en EJS, mon but est de faire le front en React.
           </p>
           <p>
-            (en cours) <a className="hover:underline" href="https://github.com/MorganeBENUREAU/bibliO">Lien vers le github du projet.</a>
+            (en cours){" "}
+            <a
+              className="hover:underline"
+              href="https://github.com/MorganeBENUREAU/bibliO"
+            >
+              Lien vers le github du projet.
+            </a>
           </p>
         </div>
       </section>
       <section className="mt-6 p-2 shadow shadow-custom-blue">
-        <h2 className="font-cabin text-xl mb-2 text-center">Martine Angibaud</h2>
+        <h2 className="font-cabin text-xl mb-2 text-center">
+          Martine Angibaud
+        </h2>
         <div className="flex w-full justify-around items-center my-2">
-          <img src={react} alt="" className="h-10 md:h-12"/>
-          <img src={tailwind} alt="" className="h-8 md:h-10"/>
+          <img src={react} alt="" className="h-10 md:h-12" />
+          <img src={tailwind} alt="" className="h-8 md:h-10" />
         </div>
         <div className="shadow shadow-gray-500 indent-4">
           <p>
-            Création d'un site vitrine pour particulier avec React. Apprentissage de leaflet afin de mettre une carte sur la page contact.
-            Apprentissage de firebase pour héberger le site.
+            Création d'un site vitrine pour particulier avec React.
+            Apprentissage de leaflet afin de mettre une carte sur la page
+            contact. Apprentissage de firebase pour héberger le site.
           </p>
           <p>
             <a href="https://martineangibaud.fr/">Lien du site.</a>
@@ -58,7 +73,7 @@ function Projets() {
       </section>
       <section className="w-full mt-6 p-2 shadow shadow-custom-blue">
         <h2 className="font-cabin text-xl mb-2 text-center">Projet à venir</h2>
-        </section>
+      </section>
     </main>
   );
 }

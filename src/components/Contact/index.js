@@ -9,10 +9,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        `${process.env.REACT_APP_EMAILJS_USER}`,
-        `${process.env.REACT_APP_EMAILJS_TEMPLATE_ID}`,
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,        
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         form.current,
-        `${process.env.REACT_APP_EMAILJS_USER}`
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -22,6 +22,7 @@ function Contact() {
           console.log(error.text);
         }
       );
+      
   };
   return (
     <main className="font-quicksand flex flex-col justify-around items-center text-left indent-4 flex-1-0-auto w-4/5 mt-28 mb-2 mx-auto sm:mt-20 sm:w-4/5 md:w-3/5 lg:w-2/5">

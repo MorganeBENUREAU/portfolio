@@ -67,7 +67,7 @@ function Projets() {
             contact. Apprentissage de firebase pour héberger le site.
           </p>
           <p>
-            <a href="https://martineangibaud.fr/">Lien du site.</a>
+            <a className="hover:underline" href="https://martineangibaud.fr/">Lien du site.</a>
           </p>
         </div>
       </section>

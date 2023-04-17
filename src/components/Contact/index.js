@@ -82,6 +82,7 @@ function Contact() {
               <textarea
                 name="message"
                 id="message"
+                rows='8'
                 placeholder="Votre message"
                 required
                 className="border border-solid border-gray-400 w-full"

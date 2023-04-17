@@ -7,8 +7,31 @@ import tailwind from "../../images/logo-tailwindcss.png";
 function Projets() {
   return (
     <main className="font-quicksand flex flex-col justify-around items-center text-left flex-1-0-auto w-4/5 mt-28 mb-2 mx-auto sm:mt-20 sm:w-4/5 md:w-3/5 lg:w-2/5">
+      
       <h1 className="font-cabin text-2xl uppercase mb-4">Projets</h1>
+      
       <section className="p-2 shadow shadow-custom-blue">
+        <h2 className="font-cabin text-xl mb-2 text-center">
+          Martine Angibaud
+        </h2>
+        <div className="flex w-full justify-around items-center my-2">
+          <img src={react} alt="" className="h-10 md:h-12" />
+          <img src={tailwind} alt="" className="h-8 md:h-10" />
+        </div>
+        <div className="shadow shadow-gray-500 indent-4">
+          <p>
+            Création d'un site vitrine pour particulier avec React.
+            Apprentissage de leaflet afin de mettre une carte sur la page
+            contact. Apprentissage de firebase pour héberger le site.
+          </p>
+          <p>
+            <a className="hover:underline" href="https://martineangibaud.fr/">Lien du site.</a>
+          </p>
+        </div>
+      </section>
+      
+
+      <section className="mt-6 p-2 shadow shadow-custom-blue">
         <h2 className="font-cabin text-xl mb-2 text-center">NotaBebe</h2>
         <div className="flex w-full justify-around items-center my-2">
           <img src={node} alt="" className="h-10 md:h-12" />
@@ -30,6 +53,7 @@ function Projets() {
           </p>
         </div>
       </section>
+
       <section className="mt-6 p-2 shadow shadow-custom-blue">
         <h2 className="font-cabin text-xl mb-2 text-center">Bibli'O</h2>
         <div className="flex w-full justify-around items-center my-2">
@@ -52,28 +76,11 @@ function Projets() {
           </p>
         </div>
       </section>
-      <section className="mt-6 p-2 shadow shadow-custom-blue">
-        <h2 className="font-cabin text-xl mb-2 text-center">
-          Martine Angibaud
-        </h2>
-        <div className="flex w-full justify-around items-center my-2">
-          <img src={react} alt="" className="h-10 md:h-12" />
-          <img src={tailwind} alt="" className="h-8 md:h-10" />
-        </div>
-        <div className="shadow shadow-gray-500 indent-4">
-          <p>
-            Création d'un site vitrine pour particulier avec React.
-            Apprentissage de leaflet afin de mettre une carte sur la page
-            contact. Apprentissage de firebase pour héberger le site.
-          </p>
-          <p>
-            <a className="hover:underline" href="https://martineangibaud.fr/">Lien du site.</a>
-          </p>
-        </div>
-      </section>
+
       <section className="w-full mt-6 p-2 shadow shadow-custom-blue">
         <h2 className="font-cabin text-xl mb-2 text-center">Projet à venir</h2>
       </section>
+      
     </main>
   );
 }
